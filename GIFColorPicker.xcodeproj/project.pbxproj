@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F1EE3C3B1CA0E7790088F605 /* GIFColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F1EE3C3A1CA0E7790088F605 /* GIFColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1EE3C481CA0E7850088F605 /* GIFAngleGestorRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = F1EE3C421CA0E7850088F605 /* GIFAngleGestorRecognizer.h */; };
+		F1EE3C491CA0E7850088F605 /* GIFAngleGestorRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EE3C431CA0E7850088F605 /* GIFAngleGestorRecognizer.m */; };
+		F1EE3C4A1CA0E7850088F605 /* GIFColorRing.h in Headers */ = {isa = PBXBuildFile; fileRef = F1EE3C441CA0E7850088F605 /* GIFColorRing.h */; };
+		F1EE3C4B1CA0E7850088F605 /* GIFColorRing.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EE3C451CA0E7850088F605 /* GIFColorRing.m */; };
+		F1EE3C4C1CA0E7850088F605 /* GIFColorsPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F1EE3C461CA0E7850088F605 /* GIFColorsPicker.h */; };
+		F1EE3C4D1CA0E7850088F605 /* GIFColorsPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EE3C471CA0E7850088F605 /* GIFColorsPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1EE3C371CA0E7790088F605 /* GIFColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GIFColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EE3C3A1CA0E7790088F605 /* GIFColorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIFColorPicker.h; sourceTree = "<group>"; };
 		F1EE3C3C1CA0E7790088F605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EE3C421CA0E7850088F605 /* GIFAngleGestorRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFAngleGestorRecognizer.h; sourceTree = "<group>"; };
+		F1EE3C431CA0E7850088F605 /* GIFAngleGestorRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFAngleGestorRecognizer.m; sourceTree = "<group>"; };
+		F1EE3C441CA0E7850088F605 /* GIFColorRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFColorRing.h; sourceTree = "<group>"; };
+		F1EE3C451CA0E7850088F605 /* GIFColorRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFColorRing.m; sourceTree = "<group>"; };
+		F1EE3C461CA0E7850088F605 /* GIFColorsPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFColorsPicker.h; sourceTree = "<group>"; };
+		F1EE3C471CA0E7850088F605 /* GIFColorsPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFColorsPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				F1EE3C3A1CA0E7790088F605 /* GIFColorPicker.h */,
+				F1EE3C421CA0E7850088F605 /* GIFAngleGestorRecognizer.h */,
+				F1EE3C431CA0E7850088F605 /* GIFAngleGestorRecognizer.m */,
+				F1EE3C441CA0E7850088F605 /* GIFColorRing.h */,
+				F1EE3C451CA0E7850088F605 /* GIFColorRing.m */,
+				F1EE3C461CA0E7850088F605 /* GIFColorsPicker.h */,
+				F1EE3C471CA0E7850088F605 /* GIFColorsPicker.m */,
 				F1EE3C3C1CA0E7790088F605 /* Info.plist */,
 			);
 			path = GIFColorPicker;
@@ -60,6 +78,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1EE3C3B1CA0E7790088F605 /* GIFColorPicker.h in Headers */,
+				F1EE3C4C1CA0E7850088F605 /* GIFColorsPicker.h in Headers */,
+				F1EE3C4A1CA0E7850088F605 /* GIFColorRing.h in Headers */,
+				F1EE3C481CA0E7850088F605 /* GIFAngleGestorRecognizer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EE3C4B1CA0E7850088F605 /* GIFColorRing.m in Sources */,
+				F1EE3C4D1CA0E7850088F605 /* GIFColorsPicker.m in Sources */,
+				F1EE3C491CA0E7850088F605 /* GIFAngleGestorRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
